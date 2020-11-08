@@ -3,6 +3,10 @@
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
+main {
+  overflow: hidden;
+}
+
 #popup {
   bottom: 20px;
   right: 20px;
@@ -21,4 +25,11 @@
   opacity: 0;
   transform: translateX(200px);
   transition: 1s ease-in;
+}
+
+@media only screen and (max-width: 570px) {
+
+  p {
+    font-size: .9em;
+  }
 }
