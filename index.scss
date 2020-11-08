@@ -1,0 +1,24 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+#popup {
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  transform: translateX(400px);
+  transition: 1s ease-out;
+}
+
+#img-improvise {
+  opacity: 0;
+  transform: translateX(-200px);
+  transition: 1s ease-in;
+}
+
+#img-overcome {
+  opacity: 0;
+  transform: translateX(200px);
+  transition: 1s ease-in;
+}
